@@ -2,7 +2,6 @@
 @use 'variables' as *;
 @use 'mixins' as *;
 
-
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +37,6 @@ img {
 
 .container {
     @include contain;
-    
 }
 
 .btn {
@@ -50,12 +48,13 @@ img {
 }
 
 .btn-primary {
-    background: linear-gradient(to right,var(--gradient-primary), var(--gradient-secondary));  
+    background: linear-gradient(to right,var(--gradient-primary), var(--gradient-secondary));
+    opacity: .9;  
     color: var(--white);
     @include transition;
     
     &:hover {
-        opacity: .8;
+        opacity: 1;
         transform: scale(1.04);
     }
 }
@@ -66,5 +65,4 @@ img {
     .container {
         @include contain-desktop;
     }
-     
 }

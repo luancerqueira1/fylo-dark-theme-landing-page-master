@@ -50,7 +50,6 @@
         .stay-productive-info {
             max-width: 33rem;
         }
-
     }
 }
 
@@ -60,6 +59,10 @@
     position: relative;
     color: var(--gradient-primary);
     padding-bottom: .5rem;
+
+    &:hover {
+        opacity: .7;
+    }
 
     img {
         margin-left: .3rem;
@@ -71,21 +74,20 @@
         display: inline-block;
         content: "";
         bottom: 0;
-        height: 2px;
+        height: 0.143rem;
         width: 100%;
         background: var(--gradient-primary);
         transform-origin: center;
-        
     }  
     
     &:hover::after {
         transform: scale(.2);
-       
     }
  }
 
 
  //Media Queries
+
  @media (min-width: $breakpoint-sm) {
     .main{
         padding-top: 0;
@@ -109,7 +111,6 @@
         
             .stay-productive-img{
                 justify-self: flex-end;
-              
             } 
         }
     }

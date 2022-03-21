@@ -17,10 +17,11 @@
         
         &-item {
             color: var(--white);
+            opacity: .7;
             @include transition;
 
             &:hover {
-                opacity: .7;
+                opacity: 1;
             }
         }
     }
@@ -35,7 +36,6 @@
     &-content {
         text-align: center;
        
-
         h1 {
             font-size: 1.5rem;
             margin: 2rem 0 1rem;
@@ -46,7 +46,6 @@
             padding-bottom: 2rem;
             
         }
-
     }
 
     &-info {
@@ -56,17 +55,12 @@
 }
 
 
-
 // Responsive 
 
 @media (min-width: $breakpoint-md) {
     .header-section {
         background: url(/src/images/bg-curvy-desktop.svg) no-repeat bottom;
         padding-bottom: 10rem;  
-        
-        &-content {
-          @include contain-desktop; 
-        }
     }  
 }
 

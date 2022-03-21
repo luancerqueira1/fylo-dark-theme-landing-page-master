@@ -17,7 +17,7 @@
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         background: var(--color-primary);
         border-radius: .5rem;
-        padding: 1.5rem;
+        padding: 1.5rem 1.5rem 3rem 1.5rem;
         text-align: center;
         
         h2 {
@@ -48,6 +48,7 @@
             width: 100%;
             padding: 1rem .5rem;
             border-radius: 5rem;
+            font-weight: bold;
             border: none;
             margin-bottom: 1.5rem;
             cursor: pointer;
@@ -72,7 +73,14 @@
         text-align: center;
         font-family: var(--font-secondary);
         font-weight: bold;
-       
+
+        a {
+            color: var(--white);
+
+            &:hover {
+                color: var(--gradient-secondary);
+            }
+        }
     }
 }
  
@@ -124,7 +132,8 @@
                 opacity: 1;
                 transform: scale(1.1);
             }
-           
+
+           // social icons background color 
             &::before {
                 content: '';
                 position: absolute;
@@ -198,8 +207,6 @@
             gap: 4rem;
         }
     }
-   
-   
 }
 
 
