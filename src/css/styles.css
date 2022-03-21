@@ -86,7 +86,7 @@ img {
 }
 .header .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .header .nav-links-item {
   color: var(--white);
@@ -127,9 +127,19 @@ img {
   }
 }
 @media (min-width: 1200px) {
+  .header {
+    margin-top: 3rem;
+  }
+  .header-logo {
+    width: 8rem;
+  }
+  .header .nav-links-item {
+    font-size: 1rem;
+  }
+
   .header-section {
     background-size: 100% 40%;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
   }
 }
 .main {
