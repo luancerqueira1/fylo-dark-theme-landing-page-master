@@ -247,7 +247,7 @@ img {
 .testimonials .testimonial {
   position: relative;
   margin: 0 auto;
-  background: var(--color-primary);
+  background: var(--testimonials);
   border-radius: 0.5rem;
   padding: 1.7rem;
   z-index: 4;
@@ -301,7 +301,7 @@ img {
 .footer .footer-float p {
   line-height: 1.5;
   margin-bottom: 1.5rem;
-  max-width: 600px;
+  max-width: 35.714rem;
   margin-inline: auto;
 }
 .footer .footer-float input {
@@ -366,7 +366,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  max-width: 25rem;
+  max-width: 20rem;
 }
 .footer-info-grid .footer-info-socials {
   display: flex;
