@@ -99,7 +99,7 @@ img {
 }
 
 .header-section {
-  background: url(/images/bg-curvy-mobile.svg);
+  background: url(../../src/images/bg-curvy-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 150% 50%;
@@ -124,7 +124,7 @@ img {
 
 @media (min-width: 1024px) {
   .header-section {
-    background: url(/images/bg-curvy-desktop.svg);
+    background: url(../../src/images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 10rem;
