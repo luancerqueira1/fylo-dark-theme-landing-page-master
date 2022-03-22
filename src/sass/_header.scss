@@ -28,7 +28,7 @@
 }
 
 .header-section {
-    background: url(/src/images/bg-curvy-mobile.svg) no-repeat bottom;
+    background: url(/images/bg-curvy-mobile.svg) no-repeat bottom;
     background-size: 150% 50%;
     padding: 3rem 0 4rem;
     transform: translateY(1px);
@@ -59,7 +59,7 @@
 
 @media (min-width: $breakpoint-md) {
     .header-section {
-        background: url(/src/images/bg-curvy-desktop.svg) no-repeat bottom;
+        background: url(/images/bg-curvy-desktop.svg) no-repeat bottom;
         padding-bottom: 10rem;  
     }  
 }
